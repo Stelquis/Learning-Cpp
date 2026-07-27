@@ -61,7 +61,7 @@ Invoke-Expression (Invoke-WebRequest 'https://xmake.io/ps' -UseBasicParsing).Con
 ### 2️⃣ 克隆并编译
 
 ```shell
-# GitHub 镜像
+# GitHub 仓库
 git clone https://github.com/Stelquis/Learning-Cpp.git
 
 # CNB 镜像
