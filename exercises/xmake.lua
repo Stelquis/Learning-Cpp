@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 set_encodings("utf-8")
 set_warnings("all")
 set_kind("binary")
-set_languages("cxx17")
+set_languages("cxx20")
 
 -- 格式化输出
 target("exercise00")
@@ -10,7 +10,7 @@ target("exercise00")
 
 -- 变量与运算符
 target("exercise01")
-    add_files("01_variable&add/main.cpp")
+    add_files("01_variable_add/main.cpp")
 
 -- 函数、声明和定义
 target("exercise02")
